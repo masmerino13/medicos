@@ -1,0 +1,28 @@
+.form-row .form-label{
+    float: left;
+    font-weight: bold;
+}
+.selectedTr{
+    background: #F3F79D !important;
+}
+.sinformato{
+    padding: 1px;
+}
+.sinformato tbody td{
+    padding: 1px !important;
+    vertical-align: middle;
+}
+.sinformato tbody td input{
+    padding: 1px !important;
+    margin: 0 !important;
+    text-align: center !important;
+    background: none !important;
+    border: none !important;
+    width: 100% !important;
+}
+.alignR{text-align: right}
+.form-label{
+    text-align: right;
+    font-weight: bold;
+    padding-right: 2px;
+}

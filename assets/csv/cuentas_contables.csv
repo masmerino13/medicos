@@ -1,0 +1,646 @@
+1,CUENTAS DE ACTIVO,1,0,FALSE,1,,FALSE
+11,ACTIVOS CORRIENTES,1,1,FALSE,2,,FALSE
+1101,EFECTIVO Y EQUIVALENTES,1,11,FALSE,3,,FALSE
+110101,Caja General,1,1101,TRUE,4,,FALSE
+110102,Caja Chica,1,1101,TRUE,4,,FALSE
+110103,Bancos,1,1101,FALSE,4,,FALSE
+11010301,Cuentas Corrientes,1,110103,FALSE,5,,FALSE
+1101030101,Banco América Central - Cta. Cte. # 200881944,1,11010301,TRUE,6,,FALSE
+1101030102,Banco Citi - Cta. Cte # 012-301-00-004923-1,1,11010301,TRUE,6,,FALSE
+11010302,Cuentas de Ahorro,1,110103,FALSE,5,,FALSE
+11010303,Cuentas a Plazo,1,110103,FALSE,5,,FALSE
+110104,Equivalente de Efectivo,1,1101,FALSE,4,,FALSE
+11010401,Inversiones hasta 90 días plazo,1,110104,TRUE,5,,FALSE
+11010402,Operaciones de Reporto,1,110104,TRUE,5,,FALSE
+11010403,Otros Depósitos hasta 90 días,1,110104,TRUE,5,,FALSE
+110105,Otros Depósitos,1,1101,TRUE,4,,FALSE
+1102,CUENTAS POR COBRAR,1,11,FALSE,3,,FALSE
+110201,Cuentas Comerciales por Cobrar,1,1102,FALSE,4,,FALSE
+11020101,Cuentas de Clientes,1,110201,TRUE,5,,FALSE
+11020102,Documentos de Clientes,1,110201,TRUE,5,,FALSE
+110202,Estimación para Cuentas Comerciales Incobrabl,1,1102,FALSE,4,,FALSE
+11020201,Cuentas Incobrables de Clientes,1,110202,TRUE,5,,FALSE
+11020202,Documentos Incobrables de Clientes,1,110202,TRUE,5,,FALSE
+110203,Cuentas No Comerciales por Cobrar,1,1102,FALSE,4,,FALSE
+11020301,Préstamos y Anticipos al Personal,1,110203,FALSE,5,,FALSE
+1102030101,Personal de Ventas,1,11020301,FALSE,6,,FALSE
+1102030102,Personal de Administración,1,11020301,FALSE,6,,FALSE
+1.10E+11,Héctor Ramon Torres,1,1102030102,TRUE,7,,FALSE
+11020302,Préstamos a Accionistas,1,110203,FALSE,5,,FALSE
+11020303,Anticipo a Proveedores,1,110203,FALSE,5,,FALSE
+11020304,Comisiones por Cobrar,1,110203,TRUE,5,,FALSE
+11020305,Intereses por Cobrar,1,110203,TRUE,5,,FALSE
+11020306,Documentos por Cobrar,1,110203,TRUE,5,,FALSE
+11020307,Manuel Carranza,1,110203,TRUE,5,,FALSE
+11020308,Editorial DYN,1,110203,TRUE,5,,FALSE
+110204,Impuestos por Cobrar,1,1102,FALSE,4,,FALSE
+110205,Otras Cuentas por Cobrar,1,1102,FALSE,4,,FALSE
+11020501,Cheques Rechazados,1,110205,TRUE,5,,FALSE
+1103,PARTES RELACIONADAS,1,11,FALSE,3,,FALSE
+110301,"Directores, Ejecutivos y Empleados",1,1103,FALSE,4,,FALSE
+110302,Compañías Afiliadas,1,1103,FALSE,4,,FALSE
+110303,Compañías Asociadas,1,1103,FALSE,4,,FALSE
+110304,Compañías Subsidiarias,1,1103,FALSE,4,,FALSE
+1104,IVA CRÉDITO FISCAL,1,11,FALSE,3,,FALSE
+110401,IVA por Compras Internas Gravadas,1,1104,TRUE,4,,FALSE
+110402,IVA por Importaciones,1,1104,TRUE,4,,FALSE
+110403,IVA por Internaciones,1,1104,TRUE,4,,FALSE
+110404,IVA por Importaciones de Servicios,1,1104,TRUE,4,,FALSE
+110405,"IVA por Devoluciones, Descuentos y Rebajas so",1,1104,TRUE,4,,FALSE
+110406,IVA por Proporcionalidad Mensual (CR),1,1104,TRUE,4,,FALSE
+110407,IVA por Remanente,1,1104,TRUE,4,,FALSE
+110408,IVA por Percepción y Retención del 1%,1,1104,FALSE,4,,FALSE
+11040801,IVA Percibido por Compras,1,110408,TRUE,5,,FALSE
+11040802,IVA Retenido por Ventas,1,110408,TRUE,5,,FALSE
+11040803,IVA por Excedente de Impuesto,1,110408,TRUE,5,,FALSE
+110409,IVA Retenido a No Domiciliados,1,1104,TRUE,4,,FALSE
+110410,IVA Retenido a Terceros,1,1104,TRUE,4,,FALSE
+1105,CUENTAS POR COBRAR EN ARRENDAMIENTO FINANCIER,1,11,FALSE,3,,FALSE
+110501,Arrendamientos Financieros por Cobrar,1,1105,TRUE,4,,FALSE
+110502,Estimación para Cuentas Incobrables en Arrend,1,1105,TRUE,4,,FALSE
+1106,INVERSIONES TEMPORALES,1,11,FALSE,3,,FALSE
+110601,Inversiones Temporales al Costo,1,1106,FALSE,4,,FALSE
+11060101,Acciones,1,110601,TRUE,5,,FALSE
+11060102,Bonos,1,110601,TRUE,5,,FALSE
+11060103,Cédulas Hipotecarias,1,110601,TRUE,5,,FALSE
+110602,Valuación de Inversiones Temporales (CR),1,1106,TRUE,4,,FALSE
+1107,INVENTARIOS,1,11,FALSE,3,,FALSE
+110701,Inventario de Bienes,1,1107,TRUE,4,,FALSE
+110702,Estimación por Obsolescencia de Inventarios (,1,1107,TRUE,4,,FALSE
+110703,Pedidos en Tránsito,1,1107,FALSE,4,,FALSE
+11070301,Compras a Proveedores Extranjeros,1,110703,TRUE,5,,FALSE
+11070302,Compras a Proveedores Nacionales,1,110703,TRUE,5,,FALSE
+110704,Mercaderías Recibidas en Consignación,1,1107,TRUE,4,,FALSE
+110705,Otros Inventarios y Mercaderías,1,1107,TRUE,4,,FALSE
+1108,PAGOS POR ANTICIPADO,1,11,FALSE,3,,FALSE
+110801,Impuesto Sobre la Renta Corriente,1,1108,FALSE,4,,FALSE
+11080101,Pago a Cuenta ISR Corriente,1,110801,TRUE,5,,FALSE
+11080102,Retenciones ISR Corriente,1,110801,TRUE,5,,FALSE
+110802,Seguros en Vigencia,1,1108,FALSE,4,,FALSE
+11080201,Seguros de Inventarios,1,110802,TRUE,5,,FALSE
+11080202,Seguros de Bienes Inmuebles,1,110802,TRUE,5,,FALSE
+11080203,Seguros de Mobiliario y Equipos de Oficina,1,110802,TRUE,5,,FALSE
+11080204,Seguros de Equipos de Cómputo,1,110802,TRUE,5,,FALSE
+11080205,Seguros de Vehículos,1,110802,TRUE,5,,FALSE
+11080206,Seguros de Maquinarias,1,110802,TRUE,5,,FALSE
+11080207,Seguros de Bienes Muebles e Instalaciones,1,110802,TRUE,5,,FALSE
+11080208,Otros Seguros,1,110802,TRUE,5,,FALSE
+110803,Suministros de Oficina,1,1108,TRUE,4,,FALSE
+110804,Mantenimientos,1,1108,TRUE,4,,FALSE
+110805,Alquileres,1,1108,TRUE,4,,FALSE
+110806,Publicidad y Propaganda,1,1108,TRUE,4,,FALSE
+110807,Beneficios y Prestaciones a Empleados,1,1108,TRUE,4,,FALSE
+110808,Cuotas y Suscripciones,1,1108,TRUE,4,,FALSE
+110809,Otros Pagos por Anticipado por Cobrar,1,1108,TRUE,4,,FALSE
+1109,OTROS ACTIVOS CORRIENTES,1,11,FALSE,3,,FALSE
+12,ACTIVOS NO CORRIENTES,1,1,FALSE,2,,FALSE
+1201,"PROPIEDAD, PLANTA Y EQUIPO",1,12,FALSE,3,,FALSE
+120101,Bienes Inmuebles,1,1201,FALSE,4,,FALSE
+12010101,Terrenos,1,120101,TRUE,5,,FALSE
+12010102,Edificios,1,120101,TRUE,5,,FALSE
+120102,Mobiliario y Equipos de Oficina,1,1201,TRUE,4,,FALSE
+120103,Equipos de Cómputo,1,1201,TRUE,4,,FALSE
+120104,Vehículos,1,1201,TRUE,4,,FALSE
+120105,Maquinarias,1,1201,TRUE,4,,FALSE
+120106,Bienes Muebles e Instalaciones,1,1201,FALSE,4,,FALSE
+12010601,Techos,1,120106,TRUE,5,,FALSE
+12010602,Pisos,1,120106,TRUE,5,,FALSE
+120107,Otros Activos Fijos,1,1201,TRUE,4,,FALSE
+1202,"DEPRECIACIÓN ACUMULADA DE PROPIEDAD, PLANTA Y",1,12,FALSE,3,,FALSE
+120201,Depreciación de Edificios,1,1202,TRUE,4,,FALSE
+120202,Depreciación de Mobiliario y Equipos de Ofici,1,1202,TRUE,4,,FALSE
+120203,Depreciación de Equipos de Cómputo,1,1202,TRUE,4,,FALSE
+120204,Depreciación de Vehículos,1,1202,TRUE,4,,FALSE
+120205,Depreciación de Maquinarias,1,1202,TRUE,4,,FALSE
+120206,Depreciación de Bienes Muebles e Instalacione,1,1202,TRUE,4,,FALSE
+120207,Depreciación de Otros Activos Fijos,1,1202,TRUE,4,,FALSE
+1203,"DETERIORO DE VALOR DE PROPIEDAD, PLANTA Y EQU",1,12,FALSE,3,,FALSE
+120301,Deterioro de Edificios,1,1203,TRUE,4,,FALSE
+120302,Deterioro de Mobiliario y Equipos de Oficina,1,1203,TRUE,4,,FALSE
+120303,Deterioro de Equipos de Cómputo,1,1203,TRUE,4,,FALSE
+120304,Deterioro de Vehículos,1,1203,TRUE,4,,FALSE
+120305,Deterioro de Maquinarias,1,1203,TRUE,4,,FALSE
+120306,Deterioro de Bienes Muebles e Instalaciones,1,1203,TRUE,4,,FALSE
+120307,Deterioro de Otros Activos Fijos,1,1203,TRUE,4,,FALSE
+1204,"PROPIEDAD, PLANTA Y EQUIPO EN ARRENDAMIENTO F",1,12,FALSE,3,,FALSE
+1205,"DEPRECIACIÓN ACUMULADA DE PROPIEDAD, PLANTA Y",1,12,FALSE,3,,FALSE
+1206,"DETERIORO DE PROPIEDAD, PLANTA Y EQUIPO EN AR",1,12,FALSE,3,,FALSE
+1207,PROPIEDADES DE INVERSIÓN,1,12,FALSE,3,,FALSE
+120701,Propiedades de Inversión al Valor Razonable,1,1207,FALSE,4,,FALSE
+12070101,Valor Razonable de Propiedades de Inversión,1,120701,FALSE,5,,FALSE
+1207010101,Valor Razonable de Inversiones en Terrenos,1,12070101,TRUE,6,,FALSE
+1207010102,Valor Razonable de Inversiones en Edificios,1,12070101,TRUE,6,,FALSE
+12070102,Cambios en Valor Razonable de Propiedades de,1,120701,TRUE,5,,FALSE
+120702,Propiedades de Inversión al Costo,1,1207,FALSE,4,,FALSE
+12070201,Costo de Propiedades de Inversión,1,120702,FALSE,5,,FALSE
+1207020101,Costo de Inversiones en Terrenos,1,12070201,TRUE,6,,FALSE
+1207020102,Costo de Inversiones en Edificios,1,12070201,TRUE,6,,FALSE
+12070202,Depreciación Acumulada en Propiedades de Inve,1,120702,FALSE,5,,FALSE
+1207020201,Depreciación de Inversiones en Terrenos,1,12070202,TRUE,6,,FALSE
+1207020202,Depreciación de Inversiones en Edificios,1,12070202,TRUE,6,,FALSE
+12070203,Deterioro de Valor en Propiedades de Inversió,1,120702,FALSE,5,,FALSE
+1207020301,Deterioro de Inversiones en Terrenos,1,12070203,TRUE,6,,FALSE
+1207020302,Deterioro de Inversiones en Edificios,1,12070203,TRUE,6,,FALSE
+1208,INVERSIONES PERMANENTES,1,12,FALSE,3,,FALSE
+120801,Inversiones en Compañías Afiliadas,1,1208,FALSE,4,,FALSE
+120802,Inversiones en Compañías Asociadas,1,1208,FALSE,4,,FALSE
+120803,Inversiones en Compañías Subsidiarias,1,1208,FALSE,4,,FALSE
+120804,Inversiones en Negocios Conjuntos,1,1208,FALSE,4,,FALSE
+1209,ACTIVOS INTANGIBLES,1,12,FALSE,3,,FALSE
+120901,Derechos de Llave,1,1209,FALSE,4,,FALSE
+12090101,Costo de Adquisición de Derechos de Llave,1,120901,TRUE,5,,FALSE
+12090102,Amortización de Derechos de Llave (CR),1,120901,TRUE,5,,FALSE
+12090103,Deterioro de Valor en Derechos de Llave (CR),1,120901,TRUE,5,,FALSE
+120902,Patentes y Marcas,1,1209,FALSE,4,,FALSE
+12090201,Costo de Adquisición de Patentes y Marcas,1,120902,TRUE,5,,FALSE
+12090202,Amortización de Patentes y Marcas (CR),1,120902,TRUE,5,,FALSE
+12090203,Deterioro de Valor en Patentes y Marcas (CR),1,120902,TRUE,5,,FALSE
+120903,Licencias y Concesiones,1,1209,FALSE,4,,FALSE
+12090301,Costo de Adquisición Licencias y Concesiones,1,120903,TRUE,5,,FALSE
+12090302,Amortización de Licencias y Concesiones (CR),1,120903,TRUE,5,,FALSE
+12090303,Deterioro de Valor en Licencias y Concesiones,1,120903,TRUE,5,,FALSE
+120904,Programas y Sistemas,1,1209,FALSE,4,,FALSE
+12090401,Costo de Adquisición de Programas y Sistemas,1,120904,TRUE,5,,FALSE
+12090402,Amortización de Programas y Sistemas (CR),1,120904,TRUE,5,,FALSE
+12090403,Deterioro de Valor en Programas y Sistemas (C,1,120904,TRUE,5,,FALSE
+120905,Otros Activos Intangibles,1,1209,FALSE,4,,FALSE
+1210,CUENTAS POR COBRAR A LARGO PLAZO,1,12,FALSE,3,,FALSE
+121001,Cuentas Comerciales por Cobrar a Largo Plazo,1,1210,TRUE,4,,FALSE
+121002,Estimación para Cuentas Incobrables a Largo P,1,1210,TRUE,4,,FALSE
+121003,Cuentas No Comerciales por Cobrar a Largo Pla,1,1210,FALSE,4,,FALSE
+12100301,Préstamos y Anticipos al Personal a Largo Pla,1,121003,TRUE,5,,FALSE
+12100302,Préstamos a Accionistas a Largo Plazo,1,121003,TRUE,5,,FALSE
+12100303,Anticipos a Proveedores a Largo Plazo,1,121003,TRUE,5,,FALSE
+12100304,Comisiones por Cobrar a Largo Plazo,1,121003,TRUE,5,,FALSE
+12100305,Intereses por Cobrar a Largo Plazo,1,121003,TRUE,5,,FALSE
+12100306,Documentos por Cobrar a Largo Plazo,1,121003,TRUE,5,,FALSE
+121004,Impuestos por Cobrar a Largo Plazo,1,1210,TRUE,4,,FALSE
+1211,DEPÓSITOS EN GARANTÍA,1,12,FALSE,3,,FALSE
+121101,Depósitos en Garantía,1,1211,FALSE,4,,FALSE
+1212,OTRAS CUENTAS POR COBRAR A LARGO PLAZO,1,12,FALSE,3,,FALSE
+121201,Otras Cuentas por Cobrar a Largo Plazo,1,1212,TRUE,4,,FALSE
+1213,CUENTAS POR COBRAR EN ARRENDAMIENTO FINANCIER,1,12,FALSE,3,,FALSE
+121301,Arrendamientos Financieros por Cobrar a Largo,1,1213,TRUE,4,,FALSE
+121302,Estimación para Cuentas Incobrables en Arrend,1,1213,TRUE,4,,FALSE
+1214,PARTES RELACIONADAS A LARGO PLAZO,1,12,FALSE,3,,FALSE
+121401,"Directores, Ejecutivos y Empleados a Largo Pl",1,1214,FALSE,4,,FALSE
+121402,Compañías Afiliadas a Largo Plazo,1,1214,FALSE,4,,FALSE
+121403,Compañías Asociadas a Largo Plazo,1,1214,FALSE,4,,FALSE
+121404,Compañías Subsidiarias a Largo Plazo,1,1214,FALSE,4,,FALSE
+1215,IMPUESTO SOBRE LA RENTA DIFERIDO - ACTIVO,1,12,FALSE,3,,FALSE
+121501,Crédito por Impuesto Sobre la Renta Diferido,1,1215,TRUE,4,,FALSE
+1216,OTROS ACTIVOS NO CORRIENTES,1,12,FALSE,3,,FALSE
+121601,Otros Activos No Corrientes,1,1216,TRUE,4,,FALSE
+2,CUENTAS DE PASIVO,2,0,FALSE,1,,FALSE
+21,PASIVOS CORRIENTES,2,2,FALSE,2,,FALSE
+2101,PRÉSTAMOS Y SOBREGIROS BANCARIOS,2,21,FALSE,3,,FALSE
+210101,Préstamos Bancarios a Corto Plazo,2,2101,FALSE,4,,FALSE
+210102,Sobregiros Bancarios,2,2101,FALSE,4,,FALSE
+210103,Préstamos de Accionistas a Corto Plazo,2,2101,FALSE,4,,FALSE
+21010301,Héctor Torres,2,210103,TRUE,5,,FALSE
+210104,Porción Circulante de Préstamos a Largo Plazo,2,2101,FALSE,4,,FALSE
+210105,Otros Préstamos,2,2101,FALSE,4,,FALSE
+21010501,Editorial DYN,2,210105,TRUE,5,,FALSE
+2102,CUENTAS Y DOCUMENTOS POR PAGAR,2,21,FALSE,3,,FALSE
+210201,Cuentas Comerciales por Pagar,2,2102,FALSE,4,,FALSE
+21020101,Proveedores Locales,2,210201,TRUE,5,,FALSE
+21020102,Proveedores del Exterior,2,210201,FALSE,5,,FALSE
+210202,Documentos Comerciales por Pagar,2,2102,FALSE,4,,FALSE
+21020201,Contratos a Corto Plazo,2,210202,FALSE,5,,FALSE
+21020202,Cartas de Crédito,2,210202,FALSE,5,,FALSE
+210203,Cuentas No Comerciales por Pagar,2,2102,FALSE,4,,FALSE
+21020301,Tarjetas de Créditos,2,210203,FALSE,5,,FALSE
+210204,Documentos No Comerciales por Pagar,2,2102,FALSE,4,,FALSE
+21020401,Contratos a Corto Plazo,2,210204,TRUE,5,,FALSE
+21020402,Cartas de Créditos,2,210204,TRUE,5,,FALSE
+2103,BENEFICIOS Y PRESTACIONES POR PAGAR A EMPLEAD,2,21,FALSE,3,,FALSE
+210301,Salarios,2,2103,TRUE,4,,FALSE
+210302,Comisiones,2,2103,TRUE,4,,FALSE
+210303,Bonificaciones,2,2103,TRUE,4,,FALSE
+210304,Vacaciones,2,2103,TRUE,4,,FALSE
+210305,Aguinaldos,2,2103,TRUE,4,,FALSE
+210306,Aportaciones Patronales,2,2103,FALSE,4,,FALSE
+21030601,Seguro Social,2,210306,TRUE,5,,FALSE
+21030602,Pensiones,2,210306,TRUE,5,,FALSE
+21030603,Formación Profesional,2,210306,TRUE,5,,FALSE
+210307,Otras Prestaciones,2,2103,TRUE,4,,FALSE
+2104,ACREEDORES VARIOS Y PROVISIONES,2,21,FALSE,3,,FALSE
+210401,Acreedores Locales,2,2104,FALSE,4,,FALSE
+21040101,Cuota Patronal de Seguro Social,2,210401,TRUE,5,,FALSE
+21040102,Cuota Patronal de Pensiones,2,210401,TRUE,5,,FALSE
+21040103,Cuota Profesional de Formación Profesional,2,210401,TRUE,5,,FALSE
+210402,Acreedores del Exterior,2,2104,FALSE,4,,FALSE
+210403,Multas e Intereses por Pagar,2,2104,TRUE,4,,FALSE
+210404,Seguros por Pagar,2,2104,TRUE,4,,FALSE
+210405,Provisiones por Aplicar,2,2104,FALSE,4,,FALSE
+21040501,Servicios Básicos,2,210405,FALSE,5,,FALSE
+2104050101,Agua Potable,2,21040501,TRUE,6,,FALSE
+2104050102,Energía Eléctrica,2,21040501,TRUE,6,,FALSE
+2104050103,Telefonía y Comunicaciones,2,21040501,FALSE,6,,FALSE
+2.10E+11,Líneas Fijas y Fax,2,2104050103,TRUE,7,,FALSE
+2.10E+11,Líneas Celulares y Radio-comunicadores,2,2104050103,TRUE,7,,FALSE
+2.10E+11,Servicio de Carrier,2,2104050103,TRUE,7,,FALSE
+2104050104,Redes,2,21040501,FALSE,6,,FALSE
+2.10E+11,Internet,2,2104050104,TRUE,7,,FALSE
+21040502,Servicios Profesionales y Oficios,2,210405,FALSE,5,,FALSE
+2104050201,Asesorías y Consultorías,2,21040502,TRUE,6,,FALSE
+2104050202,Contabilidad,2,21040502,TRUE,6,,FALSE
+2104050203,Auditoría,2,21040502,TRUE,6,,FALSE
+2104050204,Capacitaciones y Seminarios,2,21040502,TRUE,6,,FALSE
+2104050205,Seguridad,2,21040502,TRUE,6,,FALSE
+21040503,Gastos Operativos,2,210405,FALSE,5,,FALSE
+2104050301,Alquileres y Arrendamientos,2,21040503,TRUE,6,,FALSE
+2104050302,Papelería y Útiles,2,21040503,TRUE,6,,FALSE
+2104050303,Reparaciones y Mantenimientos,2,21040503,TRUE,6,,FALSE
+2104050304,Fletes y Transporte,2,21040503,TRUE,6,,FALSE
+2104050305,Publicidad y Propaganda,2,21040503,TRUE,6,,FALSE
+2104050306,Cuotas y Suscripciones,2,21040503,TRUE,6,,FALSE
+21040504,Otros Costos y Gastos por Provisionar,2,210405,TRUE,5,,FALSE
+210406,Pagos Recibidos a Cuenta de Terceros,2,2104,TRUE,4,,FALSE
+210407,Otros Acreedores,2,2104,TRUE,4,,FALSE
+2105,PORCIÓN CORRIENTE DE OBLIGACIONES POR ARRENDA,2,21,FALSE,3,,FALSE
+210501,Porción Corriente de Obligaciones por Arrenda,2,2105,TRUE,4,,FALSE
+2106,RETENCIONES Y DESCUENTOS,2,21,FALSE,3,,FALSE
+210601,Cotizaciones Seguro Social,2,2106,TRUE,4,,FALSE
+210602,Cotizaciones de Pensiones,2,2106,TRUE,4,,FALSE
+210603,Retenciones de Impuesto Sobre la Renta,2,2106,FALSE,4,,FALSE
+21060301,Servicios de Carácter Permanente,2,210603,TRUE,5,,FALSE
+21060302,Servicios sin Dependencia Laboral,2,210603,TRUE,5,,FALSE
+21060303,Servicio de Arrendamiento de Inmuebles,2,210603,TRUE,5,,FALSE
+21060304,Servicios de Transporte Internacional,2,210603,TRUE,5,,FALSE
+21060305,Retenciones a No Domiciliados,2,210603,TRUE,5,,FALSE
+210604,IVA Retenido a No Domiciliados,2,2106,TRUE,4,,FALSE
+210605,IVA Retenido a Terceros,2,2106,TRUE,4,,FALSE
+210606,Órdenes de Descuentos,2,2106,FALSE,4,,FALSE
+21060601,Órdenes de Descuentos Estatales,2,210606,FALSE,5,,FALSE
+2106060101,Procuraduría General de la República,2,21060601,TRUE,6,,FALSE
+2106060102,Fondo Social para la Vivienda,2,21060601,TRUE,6,,FALSE
+2106060103,Otras Instituciones del Estado,2,21060601,TRUE,6,,FALSE
+21060602,Órdenes de Descuentos Institucionales,2,210606,FALSE,5,,FALSE
+2106060201,Instituciones de Crédito,2,21060602,FALSE,6,,FALSE
+210607,Otras Retenciones y Descuentos,2,2106,FALSE,4,,FALSE
+21060701,Descuento de Vialidad,2,210607,TRUE,5,,FALSE
+21060702,Otros Descuentos,2,210607,FALSE,5,,FALSE
+2107,IVA DÉBITO FISCAL,2,21,FALSE,3,,FALSE
+210701,IVA por Ventas Comprobantes de Crédito Fiscal,2,2107,TRUE,4,,FALSE
+210702,IVA por Ventas Facturas Consumidor Final,2,2107,TRUE,4,,FALSE
+210703,IVA por Devoluciones y Rebajas sobre Ventas (,2,2107,TRUE,4,,FALSE
+2108,ANTICIPOS DE CLIENTES,2,21,FALSE,3,,FALSE
+210801,Anticipos de Clientes Comerciales,2,2108,TRUE,4,,FALSE
+210802,Garantías de Clientes Comerciales,2,2108,TRUE,4,,FALSE
+2109,DIVIDENDOS POR PAGAR,2,21,FALSE,3,,FALSE
+210901,Utilidades del Presente Ejercicio,2,2109,TRUE,4,,FALSE
+210902,Utilidades de Ejercicios Anteriores,2,2109,TRUE,4,,FALSE
+2110,IMPUESTOS POR PAGAR,2,21,FALSE,3,,FALSE
+211001,Pago a Cuenta Corriente,2,2110,TRUE,4,,FALSE
+211002,Impuesto al Valor Agregado IVA,2,2110,TRUE,4,,FALSE
+211003,Impuesto Sobre la Renta Corriente,2,2110,TRUE,4,,FALSE
+211004,Impuestos Municipales,2,2110,TRUE,4,,FALSE
+211005,Matrículas y Balances,2,2110,TRUE,4,,FALSE
+211006,Otros Impuestos por Pagar,2,2110,TRUE,4,,FALSE
+2111,CUENTAS POR PAGAR PARTES RELACIONADAS,2,21,FALSE,3,,FALSE
+211101,"Directores, Ejecutivos y Empleados",2,2111,TRUE,4,,FALSE
+211102,Compañías Afiliadas,2,2111,TRUE,4,,FALSE
+211103,Compañías Asociadas,2,2111,TRUE,4,,FALSE
+211104,Compañías Subsidiarias,2,2111,TRUE,4,,FALSE
+2112,OTROS PASIVOS CORRIENTES,2,21,FALSE,3,,FALSE
+211201,Otros Pasivos Corrientes,2,2112,FALSE,4,,FALSE
+22,PASIVOS NO CORRIENTES,2,2,FALSE,2,,FALSE
+2201,PRÉSTAMOS BANCARIOS A LARGO PLAZO,2,22,FALSE,3,,FALSE
+220101,Préstamos de Instituciones Bancarias a Largo,2,2201,FALSE,4,,FALSE
+2202,OTROS PRÉSTAMOS A LARGO PLAZO,2,22,FALSE,3,,FALSE
+220201,Préstamos de Accionistas a Largo Plazo,2,2202,FALSE,4,,FALSE
+220202,Otros Préstamos a Largo Plazo,2,2202,FALSE,4,,FALSE
+2203,OBLIGACIONES POR ARRENDAMIENTO FINANCIERO A L,2,22,FALSE,3,,FALSE
+220301,Obligaciones por Arrendamiento Financiero a L,2,2203,TRUE,4,,FALSE
+2204,PROVISIONES PARA GARANTÍAS DE CLIENTES,2,22,FALSE,3,,FALSE
+220401,Garantías de Clientes a Largo Plazo,2,2204,TRUE,4,,FALSE
+2205,PROVISIONES PARA OBLIGACIONES LABORALES A LAR,2,22,FALSE,3,,FALSE
+220501,Indemnizaciones de Empleados,2,2205,TRUE,4,,FALSE
+220502,Otras Prestaciones Laborales a Largo Plazo,2,2205,TRUE,4,,FALSE
+2206,CUENTAS POR PAGAR  PARTES RELACIONADAS A LARG,2,22,FALSE,3,,FALSE
+220601,"Directores, Ejecutivos y Empleados a Largo Pl",2,2206,TRUE,4,,FALSE
+220602,Compañías Afiliadas a Largo Plao,2,2206,TRUE,4,,FALSE
+220603,Compañías Asociadas a Largo Plazo,2,2206,TRUE,4,,FALSE
+220604,Compañías Subsidiarias a Largo Plazo,2,2206,TRUE,4,,FALSE
+2207,IMPUESTO SOBRE LA RENTA DIFERIDO - PASIVO,2,22,FALSE,3,,FALSE
+220701,Débito por Impuesto Sobre la Renta Diferido d,2,2207,TRUE,4,,FALSE
+2208,OTROS PASIVOS NO CORRIENTES,2,22,FALSE,3,,FALSE
+220801,Otros Pasivos No Corrientes,2,2208,TRUE,4,,FALSE
+3,CUENTAS DE PATRIMONIO,3,0,FALSE,1,,FALSE
+31,"CAPITAL SOCIAL, RESERVA Y RESULTADOS ACUMULAD",3,3,FALSE,2,,FALSE
+3101,CAPITAL SOCIAL,3,31,FALSE,3,,FALSE
+310101,Capital Social Suscrito,3,3101,FALSE,4,,FALSE
+31010101,Capital Social Mínimo,3,310101,TRUE,5,,FALSE
+31010102,Capital Social Variable,3,310101,TRUE,5,,FALSE
+310102,Capital Social No Pagado (CR),3,3101,TRUE,4,,FALSE
+32,RESERVAS,3,3,FALSE,2,,FALSE
+3201,GANANCIAS RESTRINGIDAS,3,32,FALSE,3,,FALSE
+320101,Reserva Legal,3,3201,FALSE,4,,FALSE
+32010101,Reserva Legal del Presente Ejercicio,3,320101,TRUE,5,,FALSE
+32010102,Reserva Legal de Ejercicios Anteriores,3,320101,TRUE,5,,FALSE
+320102,Otras Reservas,3,3201,TRUE,4,,FALSE
+33,RESULTADOS ACUMULADOS,3,3,FALSE,2,,FALSE
+3301,UTILIDADES,3,33,FALSE,3,,FALSE
+330101,Utilidades del Presente Ejercicio,3,3301,TRUE,4,,FALSE
+330102,Utilidades de Ejercicios Anteriores,3,3301,TRUE,4,,FALSE
+3302,DÉFICIT (CR),3,33,FALSE,3,,FALSE
+330201,Déficit del Presente Ejercicio,3,3302,TRUE,4,,FALSE
+330202,Déficit de Ejercicios Anteriores,3,3302,TRUE,4,,FALSE
+3303,AJUSTES A RESULTADOS,3,33,FALSE,3,,FALSE
+330301,Ajustes por Efectos del Proceso de Transición,3,3303,TRUE,4,,FALSE
+4,CUENTAS DE COSTOS,4,0,FALSE,1,,FALSE
+41,COSTOS DE OPERACIÓN,4,4,FALSE,2,,FALSE
+4101,COSTO DE VENTAS DE SERVICIOS,4,41,FALSE,3,,FALSE
+410101,Servicios Notariales,4,4101,TRUE,4,,FALSE
+4102,COSTOS DE VENTAS DE BIENES,4,41,FALSE,3,,FALSE
+410201,Compras Locales,4,4102,FALSE,4,,FALSE
+41020101,Compras Internas Gravadas,4,410201,TRUE,5,,FALSE
+41020102,Compras Internas Exentas,4,410201,TRUE,5,,FALSE
+410202,Compras del Exterior,4,4102,FALSE,4,,FALSE
+41020201,Importaciones Gravadas,4,410202,TRUE,5,,FALSE
+41020202,Internaciones Gravadas,4,410202,TRUE,5,,FALSE
+41020203,Importaciones Exentas,4,410202,TRUE,5,,FALSE
+410203,Gastos sobre Compras,4,4102,TRUE,4,,FALSE
+410204,Devoluciones y Rebajas sobre Compras (CR),4,4102,TRUE,4,,FALSE
+5,CUENTAS DE GASTOS,4,0,FALSE,1,,FALSE
+51,GASTOS DE OPERACIÓN,4,5,FALSE,2,,FALSE
+5101,GASTOS DE VENTAS Y DISTRBUCION,4,51,FALSE,3,,FALSE
+510101,Salarios y Prestaciones Laborales,4,5101,FALSE,4,,FALSE
+51010101,Sueldos y Salarios,4,510101,TRUE,5,,FALSE
+51010102,Comisiones,4,510101,TRUE,5,,FALSE
+51010103,Horas Extras,4,510101,TRUE,5,,FALSE
+51010104,Viáticos,4,510101,TRUE,5,,FALSE
+51010105,Aguinaldos,4,510101,TRUE,5,,FALSE
+51010106,Vacaciones,4,510101,TRUE,5,,FALSE
+51010107,"Bonificaciones, Gratificaciones e Incentivos",4,510101,TRUE,5,,FALSE
+51010108,Atención a Empleados,4,510101,TRUE,5,,FALSE
+51010109,Indemnizaciones,4,510101,TRUE,5,,FALSE
+51010110,Cuotas Patronales,4,510101,FALSE,5,,FALSE
+5101011001,Cuota Patronal ISSS - Salud,4,51010110,TRUE,6,,FALSE
+5101011002,Cuota Patronal SP - Pensiones,4,51010110,FALSE,6,,FALSE
+5101011003,Cuota Patronal Formación Profesional,4,51010110,TRUE,6,,FALSE
+51010111,Uniformes,4,510101,TRUE,5,,FALSE
+51010112,Seguros,4,510101,FALSE,5,,FALSE
+5101011201,Seguro de Vida,4,51010112,TRUE,6,,FALSE
+5101011202,Seguro Médico Hospitalario,4,51010112,TRUE,6,,FALSE
+51010113,Otras Prestaciones,4,510101,TRUE,5,,FALSE
+510102,Materiales y Suministros,4,5101,FALSE,4,,FALSE
+51010201,Papelería y Útiles,4,510102,TRUE,5,,FALSE
+51010202,Equipos de Oficina,4,510102,TRUE,5,,FALSE
+51010203,Suministros y Equipos de Informática,4,510102,TRUE,5,,FALSE
+51010204,Artículos de Aseo y Limpieza,4,510102,TRUE,5,,FALSE
+51010205,Higiénicos y Sanitarios,4,510102,TRUE,5,,FALSE
+51010206,Combustibles y Lubricantes,4,510102,TRUE,5,,FALSE
+51010207,Otros Materiales y Suministros,4,510102,TRUE,5,,FALSE
+510103,Servicios Básicos,4,5101,FALSE,4,,FALSE
+51010301,Agua Potable,4,510103,TRUE,5,,FALSE
+51010302,Energía Eléctrica,4,510103,TRUE,5,,FALSE
+51010303,Telefonía y Comunicaciones,4,510103,FALSE,5,,FALSE
+5101030301,Líneas Fijas y Fax,4,51010303,TRUE,6,,FALSE
+5101030302,Líneas Celulares y Radio-comunicadores,4,51010303,TRUE,6,,FALSE
+5101030303,Servicios de Carrier,4,51010303,TRUE,6,,FALSE
+51010304,Redes,4,510103,FALSE,5,,FALSE
+5101030401,Internet,4,51010304,TRUE,6,,FALSE
+510104,Gastos Operativos,4,5101,FALSE,4,,FALSE
+51010401,Alquileres y Arrendamientos,4,510104,FALSE,5,,FALSE
+5101040101,Inmuebles,4,51010401,TRUE,6,,FALSE
+5101040102,Mobiliario y Equipos,4,51010401,TRUE,6,,FALSE
+5101040103,Vehículos,4,51010401,TRUE,6,,FALSE
+5101040104,Maquinaria,4,51010401,TRUE,6,,FALSE
+51010402,Gastos de Representación,4,510104,TRUE,5,,FALSE
+51010403,Gastos de Viajes,4,510104,TRUE,5,,FALSE
+51010404,Vigilancia,4,510104,TRUE,5,,FALSE
+51010405,Publicidad,4,510104,TRUE,5,,FALSE
+51010406,Atención a Clientes,4,510104,TRUE,5,,FALSE
+51010407,Atención a Proveedores,4,510104,TRUE,5,,FALSE
+51010408,Mensajería,4,510104,TRUE,5,,FALSE
+51010409,"Fletes, Transporte, Parqueo y Peajes",4,510104,TRUE,5,,FALSE
+51010410,Almacenajes Temporales,4,510104,TRUE,5,,FALSE
+51010411,Mercadería Defectuosa,4,510104,TRUE,5,,FALSE
+51010412,Gasto por Obsolescencia y Deterioro de Invent,4,510104,TRUE,5,,FALSE
+51010413,Otros Gastos Deducibles,4,510104,TRUE,5,,FALSE
+510105,Gasto por Cuentas Incobrables,4,5101,FALSE,4,,FALSE
+51010501,Cuentas Comerciales Incobrables,4,510105,FALSE,5,,FALSE
+5101050101,Cuentas Incobrables de Clientes,4,51010501,TRUE,6,,FALSE
+5101050102,Documentos Incobrables de Clientes,4,51010501,TRUE,6,,FALSE
+51010502,Cuentas No Comerciales Incobrables,4,510105,FALSE,5,,FALSE
+5101050201,Préstamos y Anticipos Incobrables al Personal,4,51010502,TRUE,6,,FALSE
+5101050202,Préstamos Incobrables a Accionistas,4,51010502,TRUE,6,,FALSE
+5101050203,Anticipos Incobrables a Proveedores,4,51010502,TRUE,6,,FALSE
+5101050204,Comisiones Incobrables,4,51010502,TRUE,6,,FALSE
+5101050205,Intereses Incobrables,4,51010502,TRUE,6,,FALSE
+5101050206,Documentos Incobrables,4,51010502,TRUE,6,,FALSE
+51010503,Impuestos Incobrables,4,510105,TRUE,5,,FALSE
+51010504,Otras Cuentas Incobrables,4,510105,TRUE,5,,FALSE
+510106,Impuestos,4,5101,FALSE,4,,FALSE
+51010601,Impuestos Municipales,4,510106,TRUE,5,,FALSE
+51010602,DAI por Importaciones,4,510106,TRUE,5,,FALSE
+51010603,Proporción Crédito Fiscal,4,510106,TRUE,5,,FALSE
+51010604,Contribución al Transporte,4,510106,TRUE,5,,FALSE
+51010605,Fondo Vial,4,510106,TRUE,5,,FALSE
+51010606,Circulación de Vehículos,4,510106,TRUE,5,,FALSE
+51010607,Matrículas e Inscripciones,4,510106,TRUE,5,,FALSE
+510107,Mantenimientos,4,5101,FALSE,4,,FALSE
+51010701,Mantenimiento de Bienes Inmuebles,4,510107,FALSE,5,,FALSE
+51010702,Mantenimiento de Mobiliario y Equipos de Ofi,4,510107,TRUE,5,,FALSE
+51010703,Mantenimiento de Equipos de Cómputo,4,510107,TRUE,5,,FALSE
+51010704,Mantenimiento de Vehículos,4,510107,TRUE,5,,FALSE
+51010705,Mantenimiento de Maquinarias,4,510107,TRUE,5,,FALSE
+51010706,Mantenimiento de Bienes Muebles e Instalacion,4,510107,TRUE,5,,FALSE
+51010707,Mantenimiento de Otros Activos Fijos,4,510107,TRUE,5,,FALSE
+510108,Seguros en Vigencia,4,5101,FALSE,4,,FALSE
+51010801,Seguros de Inventarios,4,510108,TRUE,5,,FALSE
+51010802,Seguros de Bienes Inmuebles,4,510108,TRUE,5,,FALSE
+51010803,Seguros de Mobiliario y Equipos de Oficina,4,510108,TRUE,5,,FALSE
+51010804,Seguros de Equipos de Cómputo,4,510108,TRUE,5,,FALSE
+51010805,Seguros de Vehículos,4,510108,TRUE,5,,FALSE
+51010806,Seguros de Maquinarias,4,510108,TRUE,5,,FALSE
+51010807,Seguros de Bienes Muebles e Instalaciones,4,510108,TRUE,5,,FALSE
+51010808,Otros Seguros,4,510108,TRUE,5,,FALSE
+510109,Depreciaciones y Amortizaciones de Activos,4,5101,FALSE,4,,FALSE
+51010901,"Depreciación de Propiedad, Planta y Equipo",4,510109,FALSE,5,,FALSE
+5101090101,Depreciación de Edificios,4,51010901,TRUE,6,,FALSE
+5101090102,Depreciación de Mobiliario y Equipos de Ofici,4,51010901,TRUE,6,,FALSE
+5101090103,Depreciación de Equipos de Cómputo,4,51010901,TRUE,6,,FALSE
+5101090104,Depreciación de Vehículos,4,51010901,TRUE,6,,FALSE
+5101090105,Depreciación de Maquinarias,4,51010901,TRUE,6,,FALSE
+5101090106,Depreciación de Bienes Muebles e Instalacione,4,51010901,TRUE,6,,FALSE
+5101090107,Depreciación de Otros Activos Fijos,4,51010901,TRUE,6,,FALSE
+5101090108,Amortización de Activos Intangibles,4,51010901,FALSE,6,,FALSE
+51010902,"Depreciación de Propiedad, Planta y Equipo en",4,510109,FALSE,5,,FALSE
+5101090201,Depreciación de Edificios Arrendados,4,51010902,TRUE,6,,FALSE
+5101090202,Depreciación de Mobiliario y Equipos de Ofici,4,51010902,TRUE,6,,FALSE
+5101090203,Depreciación de Equipos de Cómputo Arrendados,4,51010902,TRUE,6,,FALSE
+5101090204,Depreciación de Vehículos Arrendados,4,51010902,TRUE,6,,FALSE
+5101090205,Depreciación de Maquinarias Arrendadas,4,51010902,TRUE,6,,FALSE
+5101090206,Depreciación de Bienes Muebles e Instalacione,4,51010902,TRUE,6,,FALSE
+5101090207,Depreciación de Otros Activos Fijos Arrendado,4,51010902,TRUE,6,,FALSE
+510110,Servicios y Honorarios Profesionales,4,5101,FALSE,4,,FALSE
+51011001,Servicios Notariales,4,510110,TRUE,5,,FALSE
+51011002,Asesorías y Consultorías,4,510110,TRUE,5,,FALSE
+51011003,Seminarios y Capaitaciones,4,510110,TRUE,5,,FALSE
+51011004,Congresos y Convenciones,4,510110,TRUE,5,,FALSE
+51011005,Trámites Aduanales,4,510110,TRUE,5,,FALSE
+51011006,Otros Servicios,4,510110,TRUE,5,,FALSE
+510111,Otros Gastos de Ventas,4,5101,TRUE,4,,FALSE
+5102,GASTOS DE ADMINISTRACIÓN,4,51,FALSE,3,,FALSE
+510201,Salarios y Prestaciones Laborales,4,5102,FALSE,4,,FALSE
+51020101,Sueldos y Salarios,4,510201,TRUE,5,,FALSE
+51020102,Gratificaciones e Incentivos,4,510201,TRUE,5,,FALSE
+51020103,Horas Extras,4,510201,TRUE,5,,FALSE
+51020104,Viáticos,4,510201,TRUE,5,,FALSE
+51020105,Aguinaldos,4,510201,TRUE,5,,FALSE
+51020106,Vacaciones,4,510201,TRUE,5,,FALSE
+51020107,Bonificaciones,4,510201,TRUE,5,,FALSE
+51020108,Atención a Empleados,4,510201,TRUE,5,,FALSE
+51020109,Indemnizaciones,4,510201,TRUE,5,,FALSE
+5102011,Uniformes,4,510201,TRUE,5,,FALSE
+51020110,Cuotas Patronales,4,510201,FALSE,5,,FALSE
+5102011001,Cuota Patronal ISSS - Salud,4,51020110,TRUE,6,,FALSE
+5102011002,Cuota Patronal SP - Pensiones,4,51020110,TRUE,6,,FALSE
+5102011003,Cuota Patronal Formación Profesional,4,51020110,TRUE,6,,FALSE
+51020112,Seguros,4,510201,FALSE,5,,FALSE
+5102011201,Seguro de Vida,4,51020112,TRUE,6,,FALSE
+5102011202,Seguro Médico Hospitalario,4,51020112,TRUE,6,,FALSE
+51020113,Otras Prestaciones,4,510201,TRUE,5,,FALSE
+510202,Materiales y Suministros,4,5102,FALSE,4,,FALSE
+51020201,Papelería y Útiles,4,510202,TRUE,5,,FALSE
+51020202,Equipos de Oficina,4,510202,TRUE,5,,FALSE
+51020203,Suministros y Equipos de Informática,4,510202,TRUE,5,,FALSE
+51020204,Artículos de Aseo y Limpieza,4,510202,TRUE,5,,FALSE
+51020205,Higiénicos y Sanitarios,4,510202,TRUE,5,,FALSE
+51020206,Combustibles y Lubricantes,4,510202,TRUE,5,,FALSE
+51020207,Otros Materiales y Suministros,4,510202,TRUE,5,,FALSE
+510203,Servicios Básicos,4,5102,FALSE,4,,FALSE
+51020301,Agua Potable,4,510203,TRUE,5,,FALSE
+51020302,Energía Eléctrica,4,510203,TRUE,5,,FALSE
+51020303,Telefonía y Comunicaciones,4,510203,FALSE,5,,FALSE
+5102030301,Líneas Fijas y Fax,4,51020303,TRUE,6,,FALSE
+5102030302,Líneas Celulares y Radio-comunicadores,4,51020303,TRUE,6,,FALSE
+5102030303,Servicio de Carrier,4,51020303,TRUE,6,,FALSE
+51020304,Redes,4,510203,FALSE,5,,FALSE
+5102030401,Internet,4,51020304,TRUE,6,,FALSE
+510204,Gastos Operativos,4,5102,FALSE,4,,FALSE
+51020401,Alquileres y Arrendamientos,4,510204,FALSE,5,,FALSE
+5102040101,Inmuebles,4,51020401,TRUE,6,,FALSE
+5102040102,Mobiliario y Equipos,4,51020401,TRUE,6,,FALSE
+5102040103,Vehículos,4,51020401,TRUE,6,,FALSE
+51020402,Gastos de Representación,4,510204,TRUE,5,,FALSE
+51020403,Gastos de Viajes,4,510204,TRUE,5,,FALSE
+51020404,Vigilancia,4,510204,TRUE,5,,FALSE
+51020405,Publicidad,4,510204,TRUE,5,,FALSE
+51020406,Cuotas y Suscripciones,4,510204,FALSE,5,,FALSE
+5102040601,Periódicos y Revistas,4,51020406,TRUE,6,,FALSE
+5102040602,Membresías,4,51020406,TRUE,6,,FALSE
+51020407,Atención a Proveedores,4,510204,TRUE,5,,FALSE
+51020408,Atención a Ejecutivos,4,510204,TRUE,5,,FALSE
+51020409,Mensajería,4,510204,TRUE,5,,FALSE
+51020410,"Fletes, Transporte, Parqueo, Taxis y Peajes",4,510204,TRUE,5,,FALSE
+51020411,Almacenajes Temporales de Equipos,4,510204,TRUE,5,,FALSE
+51020412,Hospedajes y Alojamientos,4,510204,TRUE,5,,FALSE
+51020413,Donaciones,4,510204,TRUE,5,,FALSE
+51020414,Otros Gastos Deducibles,4,510204,TRUE,5,,FALSE
+510205,Gasto por Cuentas Incobrables,4,5102,FALSE,4,,FALSE
+510206,Impuestos,4,5102,FALSE,4,,FALSE
+51020601,Impuestos Municipales,4,510206,TRUE,5,,FALSE
+51020602,DAI por Importaciones,4,510206,TRUE,5,,FALSE
+51020603,Circulación de Vehículos,4,510206,TRUE,5,,FALSE
+51020604,Contribución al Tranporte,4,510206,TRUE,5,,FALSE
+51020605,Fondo Vial,4,510206,TRUE,5,,FALSE
+51020606,Inscripciones,4,510206,TRUE,5,,FALSE
+51020607,Matrículas y Balances,4,510206,TRUE,5,,FALSE
+51020608,Registros,4,510206,TRUE,5,,FALSE
+510207,Mantenimientos,4,5102,FALSE,4,,FALSE
+51020701,Mantenimiento de Bienes Inmuebles,4,510207,TRUE,5,,FALSE
+51020702,Mantenimiento de Mobiliario y Equipos de Ofic,4,510207,TRUE,5,,FALSE
+51020703,Mantenimiento de Equipos de Cómputo,4,510207,TRUE,5,,FALSE
+51020704,Mantenimiento de Vehículos,4,510207,TRUE,5,,FALSE
+51020705,Mantenimiento de Bienes Muebles e Instalacion,4,510207,TRUE,5,,FALSE
+51020706,Mantenimiento de Otros Activos Fijos,4,510207,TRUE,5,,FALSE
+510208,Seguros en Vigencia,4,5102,FALSE,4,,FALSE
+51020801,Seguros de Bienes Inmuebles,4,510208,TRUE,5,,FALSE
+51020802,Seguros de Mobiliario y Equipos de Oficina,4,510208,TRUE,5,,FALSE
+51020803,Seguros de Equipos de Cómputo,4,510208,TRUE,5,,FALSE
+51020804,Seguros de Vehículos,4,510208,TRUE,5,,FALSE
+51020805,Seguros de Bienes Muebles e Instalaciones,4,510208,TRUE,5,,FALSE
+51020806,Otros Seguros,4,510208,TRUE,5,,FALSE
+510209,Depreciaciones y Amortizaciones de Activos,4,5102,FALSE,4,,FALSE
+51020901,"Depreciación de Propiedad, Planta y Equipo",4,510209,FALSE,5,,FALSE
+5102090101,Depreciación de Edificios,4,51020901,TRUE,6,,FALSE
+5102090102,Depreciación de Mobiliario y Equipos de Ofici,4,51020901,TRUE,6,,FALSE
+5102090103,Depreciación de Equipos de Cómputo,4,51020901,TRUE,6,,FALSE
+5102090104,Depreciación de Vehículos,4,51020901,TRUE,6,,FALSE
+5102090105,Depreciación de Bienes Muebles e Instalacione,4,51020901,TRUE,6,,FALSE
+5102090106,Depreciación de Otros Activos Fijos,4,51020901,TRUE,6,,FALSE
+5102090108,Amortización de Activos Intangibles,4,51020901,FALSE,6,,FALSE
+51020902,"Depreciación de Propiedad, Planta y Equipo en",4,510209,FALSE,5,,FALSE
+5102090201,Depreciación de Edificios Arrendados,4,51020902,TRUE,6,,FALSE
+5102090202,Depreciación de Mobiliario y Equipos de Ofici,4,51020902,TRUE,6,,FALSE
+5102090203,Depreciación de Equipos de Cómputo Arrendados,4,51020902,TRUE,6,,FALSE
+5102090204,Depreciación de Vehículos Arrendados,4,51020902,TRUE,6,,FALSE
+5102090205,Depreciación de Bienes Muebles e Instalacione,4,51020902,TRUE,6,,FALSE
+5102090206,Depreciación de Otros Activos Fijos Arrendado,4,51020902,TRUE,6,,FALSE
+510210,Servicios y Honorarios Profesionales,4,5102,FALSE,4,,FALSE
+51021001,Servicios Notariales,4,510210,TRUE,5,,FALSE
+51021002,Asesorías y Consultorías,4,510210,TRUE,5,,FALSE
+51021003,Seminarios y Capacitaciones,4,510210,TRUE,5,,FALSE
+51021004,Congresos y Convenciones,4,510210,TRUE,5,,FALSE
+51021005,Trámites Aduanales,4,510210,TRUE,5,,FALSE
+51021006,Contabilidad,4,510210,TRUE,5,,FALSE
+51021007,Auditorías,4,510210,FALSE,5,,FALSE
+5102100701,Auditoría Externa,4,51021007,TRUE,6,,FALSE
+5102100702,Auditoría Fiscal,4,51021007,TRUE,6,,FALSE
+510211,Otros Gastos Administrativos,4,5102,TRUE,4,,FALSE
+5103,GASTOS FINANCIEROS,4,51,FALSE,3,,FALSE
+510301,Intereses Pagados,4,5103,TRUE,4,,FALSE
+510302,Comisiones Bancarias,4,5103,TRUE,4,,FALSE
+510303,Seguros de Deudas,4,5103,TRUE,4,,FALSE
+510304,Diferenciales Cambiarios,4,5103,TRUE,4,,FALSE
+510305,Transferencias,4,5103,TRUE,4,,FALSE
+510306,Chequeras,4,5103,TRUE,4,,FALSE
+510307,Certificaciones,4,5103,TRUE,4,,FALSE
+510308,Otros Gastos Financieros,4,5103,TRUE,4,,FALSE
+52,GASTOS DE NO OPERACIÓN,4,5,FALSE,2,,FALSE
+5201,GASTOS NO DEDUCIBLES,4,52,FALSE,3,,FALSE
+520101,Multas y Recargos,4,5201,TRUE,4,,FALSE
+520102,Intereses por Mora,4,5201,TRUE,4,,FALSE
+520103,Otros Gastos No Deducibles,4,5201,TRUE,4,,FALSE
+5202,PÉRDIDAS POR DETERIORO DE VALOR DE ACTIVOS,4,52,FALSE,3,,FALSE
+520201,"Deterioro de Valor de Propiedad, Planta y Equ",4,5202,TRUE,4,,FALSE
+520202,"Deterioro de Valor de Propiedad, Planta y Equ",4,5202,TRUE,4,,FALSE
+520203,Deterioro de Valor de Propiedades de Inversió,4,5202,TRUE,4,,FALSE
+520204,Deterioro de Valor de Activos Intangibles,4,5202,TRUE,4,,FALSE
+5203,PÉRDIDAS EN VENTAS DE ACTIVOS NO CORRIENTES,4,52,FALSE,3,,FALSE
+5204,PÉRDIDAS EN BAJA DE ACTIVOS NO CORRIENTES,4,52,FALSE,3,,FALSE
+53,GASTOS POR IMPUESTO SORE LA RENTA,4,5,FALSE,2,,FALSE
+5301,GASTOS POR IMPUESTO SOBRE LA RENTA,4,53,FALSE,3,,FALSE
+530101,Gastos por ISR Corriente,4,5301,TRUE,4,,FALSE
+530102,Gastos por ISR Diferido - Activo,4,5301,TRUE,4,,FALSE
+530103,Gastos por ISR Diferido - Pasivo,4,5301,TRUE,4,,FALSE
+6,CUENTAS DE PRODUCTOS,5,0,FALSE,1,,FALSE
+61,INGRESOS DE OPERACIÓN,5,6,FALSE,2,,FALSE
+6101,VENTAS DE SERVICIOS,5,61,FALSE,3,,FALSE
+610101,Servicios Notariales,5,6101,TRUE,4,,FALSE
+6102,VENTAS DE BIENES,5,61,FALSE,3,,FALSE
+6103,DEVOLUCIONES Y REBAJAS SOBRE VENTAS (CR),5,61,FALSE,3,,FALSE
+610301,Devoluciones y Rebajas sobre Ventas (CR),5,6103,TRUE,4,,FALSE
+6104,OTROS INGRESOS,5,61,FALSE,3,,FALSE
+610401,Otros Ingresos,5,6104,TRUE,4,,FALSE
+62,INGRESOS DE NO OPERACIÓN,5,6,FALSE,2,,FALSE
+6201,PRODUCTOS FINANCIEROS,5,62,FALSE,3,,FALSE
+620101,Intereses Ganados,5,6201,TRUE,4,,FALSE
+620102,Comisiones Bancarias,5,6201,TRUE,4,,FALSE
+620103,Diferenciales Cambiarios,5,6201,TRUE,4,,FALSE
+6202,DIVIDENDOS GANADOS,5,62,FALSE,3,,FALSE
+620201,Dividendos Devengados,5,6202,TRUE,4,,FALSE
+6203,INGRESOS POR REVERSIÓN DE DETERIORO DE VALOR,5,62,FALSE,3,,FALSE
+620301,"Reversión de Deterioro de Valor de Propiedad,",5,6203,TRUE,4,,FALSE
+620302,"Reversión de Deterioro de Valor de Propiedad,",5,6203,TRUE,4,,FALSE
+620303,Reversión de Deterioro de Valor de Propiedade,5,6203,TRUE,4,,FALSE
+620304,Reversión de Deterioro de Valor de Activos In,5,6203,TRUE,4,,FALSE
+6204,GANANCIAS EN VENTAS DE ACTIVOS NO CORRIENTES,5,62,FALSE,3,,FALSE
+7,CUENTAS DE RESULTADOS,3,0,FALSE,1,,FALSE
+71,CUENTA LIQUIDADORA O DE CIERRE,3,7,FALSE,2,,FALSE
+7101,PÉRDIDAS Y GANANCIAS,3,71,FALSE,3,,FALSE
+710101,Pérdidas y Ganancias,3,7101,TRUE,4,,FALSE
